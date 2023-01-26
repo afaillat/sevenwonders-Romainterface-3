@@ -34,13 +34,7 @@ public class MenuControllers {
         stage.setScene(scene);
         stage.setFullScreen(true);
     }
-    @FXML
-    protected void onGameButtonClick() throws IOException {
-        Stage stage = (Stage) gameButton.getScene().getWindow();
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("selection-view.fxml")));
-        stage.setScene(scene);
-        stage.setFullScreen(true);
-    }
+
     @FXML
     protected void onQuitButtonClick() {
         System.exit(0);

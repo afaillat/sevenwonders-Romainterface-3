@@ -79,7 +79,7 @@ public class SelectionView {
     @FXML
     protected void choiceBoxClick(){
         comboBox.getItems().clear();
-        comboBox.getItems().addAll("1", "2", "3", "4", "5");
+        comboBox.getItems().addAll("1", "2", "3", "4", "5","6","7");
 
     }
 
@@ -122,7 +122,20 @@ public class SelectionView {
             age5.getItems().add(i);
         }
     }
-
+    @FXML
+    protected void setType6(){
+        age5.getItems().clear();
+        for (int i = 8; i <= 77; i++) {
+            age5.getItems().add(i);
+        }
+    }
+    @FXML
+    protected void setType7(){
+        age5.getItems().clear();
+        for (int i = 8; i <= 77; i++) {
+            age5.getItems().add(i);
+        }
+    }
     @FXML
     protected void choiceBoxChoosed(){
         players = comboBox.getSelectionModel().getSelectedIndex();

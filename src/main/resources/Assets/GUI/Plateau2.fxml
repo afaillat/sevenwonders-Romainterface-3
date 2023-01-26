@@ -3,11 +3,13 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
 
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="537.0" fitWidth="721.0" layoutX="-4.0" layoutY="-2.0">
+      <ImageView fitHeight="537.0" fitWidth="721.0" layoutX="-3.0" layoutY="-4.0">
          <image>
             <Image url="@../background/Scroll_flat.jpg" />
          </image>
@@ -127,5 +129,8 @@
             <Image url="@../images/tokens-progress/back/token-back.png" />
          </image>
       </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f0" height="90.0" layoutX="358.0" layoutY="206.0" stroke="#fffafa" strokeType="INSIDE" width="60.0" />
+      <Line endX="28.286895751953125" endY="66.88720703125" layoutX="388.0" layoutY="228.0" startX="-27.78497314453125" startY="-20.488571166992188" />
+      <Line endX="21.95526123046875" endY="61.0030517578125" layoutX="338.0" layoutY="233.0" startX="77.1458740234375" startY="-25.349609375" />
    </children>
 </Pane>
